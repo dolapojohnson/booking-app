@@ -37,4 +37,6 @@ jobs:
             script: |
                 #Now we have got the access of EC2 and we will start the deploy .
                 cd /home/ubuntu/booking-app 
+                git pull
+                npm install
                 sudo service nginx restart
