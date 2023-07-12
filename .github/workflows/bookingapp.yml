@@ -4,7 +4,7 @@
 name: Booking App
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 #First we will see the application build or not , then we will deploy in EC2
